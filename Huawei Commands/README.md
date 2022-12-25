@@ -1,6 +1,7 @@
 # Navigating the CLI
 
-- Change view to system and interface view
+- Change view to system and interface view![Screenshot 2022-12-25 215228](https://user-images.githubusercontent.com/99830416/209480448-db283a6b-cb42-4214-b46c-9849a9c363c1.png)
+
   ```
   <Huawei>system-view 
   Enter system view, return user view with Ctrl+Z.
@@ -84,9 +85,16 @@
   display ip routing_table
   ``` 
 - Draw static route bewtween router and network [draw 2 wayes to enable pinging]
+  
+  ![Screenshot 2022-12-25 215228](https://user-images.githubusercontent.com/99830416/209480455-92d134f9-3ee4-474f-a4f1-7ee091d9d4b8.png)
+
   ```
   [ip route_static] [destenation_ip] [subnet_mask] [next_hope(interface of second router)]
   ip route-static 192.168.2.0 24 10.0.12.2
   ```
-  
-  
+- Default Static Routes
+ 
+  ![Screenshot 2022-12-25 215118](https://user-images.githubusercontent.com/99830416/209480399-1d6b9878-fe71-4285-b0d5-695891aa994f.png)
+
+ 
+ 
