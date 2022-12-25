@@ -80,8 +80,4 @@
 
   ```
   display ip routing_table
-
   ```
-
-
-
