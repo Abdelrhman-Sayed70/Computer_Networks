@@ -1,7 +1,6 @@
 # Navigating the CLI
 
-- Change view to system and interface view![Screenshot 2022-12-25 215228](https://user-images.githubusercontent.com/99830416/209480448-db283a6b-cb42-4214-b46c-9849a9c363c1.png)
-
+- Change view to system and interface view
   ```
   <Huawei>system-view 
   Enter system view, return user view with Ctrl+Z.
