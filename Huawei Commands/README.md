@@ -95,5 +95,17 @@
  
   ![Screenshot 2022-12-25 215118](https://user-images.githubusercontent.com/99830416/209480399-1d6b9878-fe71-4285-b0d5-695891aa994f.png)
 
+ # OSPF 
  
- 
+ - Change network type of the router interface 
+    ```
+    [RTD]interface GigabitEthernet0/0/0
+    [RTD-GigabitEthernet0/0/0]ospf network-type p2p
+    ```
+  
+- set cost to OSPF  
+  ```
+  [RTA]interface GigabitEthernet 0/0/0
+  [RTA-GigabitEthernet0/0/0]ospf cost 20   
+  ```
+- 
