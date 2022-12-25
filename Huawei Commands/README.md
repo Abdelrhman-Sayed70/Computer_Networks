@@ -40,9 +40,19 @@
   ```
 - set up password to the router
   ```
+  <Router1>system-view 
+  Enter system view, return user view with Ctrl+Z.
 
+  [Router1]user-interface console 0
 
+  [Router1-ui-console0]set authentication password cipher 123
+  [Router1-ui-console0]
 
+  Configuration console exit, please press any key to log on
+  Enter password
+  Login authentication
+  Password:
+  Login successfully
   ```
 
 
