@@ -83,9 +83,10 @@
   ```
   display ip routing_table
   ``` 
-- Draw static route bewtween router and network 
+- Draw static route bewtween router and network [draw 2 wayes to enable pinging]
   ```
-  ip route_static destenation_ip subnet_mask next_hope(interface of second router)
+  [ip route_static] [destenation_ip] [subnet_mask] [next_hope(interface of second router)]
+  ip route-static 192.168.2.0 24 10.0.12.2
   ```
   
   
