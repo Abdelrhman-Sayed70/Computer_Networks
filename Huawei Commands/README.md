@@ -70,14 +70,22 @@
   [Router-LoopBack0]ip add 1.1.1.1 32
   [Router-LoopBack0]
   ```
+# Establishing a Single Switched Network 
 
 - display mac address table [switch]
   ```
   display mac-address 
   ```
 
-- display routing table [router - user view]
+# IP Static Routes 
 
+- display routing table [router - user view]
   ```
   display ip routing_table
+  ``` 
+- Draw static route bewtween router and network 
   ```
+  ip route_static destenation_ip subnet_mask next_hope(interface of second router)
+  ```
+  
+  
