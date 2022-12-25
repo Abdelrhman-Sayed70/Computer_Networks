@@ -71,9 +71,17 @@
   [Router-LoopBack0]
   ```
 
+- display mac address table [switch]
+  ```
+  display mac-address 
+  ```
 
+- display routing table [router - user view]
 
+  ```
+  display ip routing_table
 
+  ```
 
 
 
