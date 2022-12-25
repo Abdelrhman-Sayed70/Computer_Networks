@@ -54,5 +54,26 @@
   Password:
   Login successfully
   ```
+- add ip to Interface  
+  ```
+  <Huawei>system-view 
+  Enter system view, return user view with Ctrl+Z.
+  
+  [Huawei]sysname Router
+  
+  [Router]interface g0/0/0
+  [Router-GigabitEthernet0/0/0]ip add 10.0.12.1 24
+
+  [Router-GigabitEthernet0/0/0]quit
+
+  [Router]interface LoopBack 0
+  [Router-LoopBack0]ip add 1.1.1.1 32
+  [Router-LoopBack0]
+  ```
+
+
+
+
+
 
 
