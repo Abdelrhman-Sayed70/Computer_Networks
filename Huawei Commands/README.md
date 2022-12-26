@@ -122,4 +122,11 @@
   [RTA]interface GigabitEthernet 0/0/0
   [RTA-GigabitEthernet0/0/0]ospf cost 20   
   ```
+# FTP 
 
+- enable ftp server in any router 
+  ```
+  [R1]ftp server enable
+  [R1]set default ftp-directory flash:/
+  ```
+  
