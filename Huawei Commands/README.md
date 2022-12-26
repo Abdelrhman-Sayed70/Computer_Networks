@@ -130,3 +130,14 @@
   [R1]set default ftp-directory flash:/
   ```
   
+# dhcp 
+  
+- global
+
+
+- interface  
+  ```
+  [Huawei]dhcp enable
+  [Huawei]interface GigabitEthernet0/0/0
+  [Huawei-GigabitEthernet0/0/0]dhcp select interface  
+  ```
