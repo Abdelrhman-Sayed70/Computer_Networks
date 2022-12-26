@@ -95,7 +95,16 @@
  
   ![Screenshot 2022-12-25 215118](https://user-images.githubusercontent.com/99830416/209480399-1d6b9878-fe71-4285-b0d5-695891aa994f.png)
 
- # OSPF 
+ # OSPF
+ 
+ -  ospf config
+ 
+    ```
+    [R1]ospf 1 router-id 10.0.1.1 
+    [R1-ospf-1]area 0 
+    [R1-ospf-1-area-0.0.0.0]network 10.0.1.0 0.0.0.255 
+    ```
+ 
  
  - Change network type of the router interface 
     ```
@@ -108,4 +117,4 @@
   [RTA]interface GigabitEthernet 0/0/0
   [RTA-GigabitEthernet0/0/0]ospf cost 20   
   ```
-- 
+
